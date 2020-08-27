@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Allocator</title>
+    <link href="app.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+	<ul id="ul_main">
+	    <div id="title">
+		    <h1 class="title_text"><center>Inventory Allocator</center></h1>
+	    </div>
+
+	    <li id="li_items" class="order">Add Ordered Items</li>
+	    <li id="li_inputItems" class="object">
+	    	Item Name: <input type="text" id="input_itemName"> Amount:<input type="number" id="input_itemAmount"> 
+	    	<button id="button_items">Add</button>
+	    </li>
+	    <li id="li_itemFeedback" class="feedback"></li>
+	    <li id="li_warehouse" class="inventory">Add Warehouse Inventory</li>
+	    <li id="li_addInventory">Add Inventory</li>
+	    <li id="li_inputWarehouse" class="object">
+	    	Warehouse Name: <input type="text" id="input_warehouseName">
+	    	<button id="button_warehouse">Add</button>
+	    </li>
+	    <li id="li_inputWarehouseInv" class="input_added">
+	    	<input type="text" class="warehouse_invName" placeholder="Item Name">
+	    	<input type="number" class="warehouse_invAmount" placeholder="Quantity of Item">
+	    </li>
+	    <li id="li_warehouseFeedback" class="feedback"></li>
+	    <li id="li_process">Process Order</li>
+
+    </ul>
+
+<!--
+    <button id="button_testOrder">Test Order</button>
+    <button id="button_testWarehouse">Test Warehouse</button>
+-->
+    
+
+
+    <div id="div_items" class="tableDiv">
+    	<h1><center>Items Ordered</center></h1>
+    	<table id="table_items">
+    		<thead>
+    			<tr>
+    				<th>Index</th>
+    				<th>Item Name</th>
+    				<th>Amount</th>
+    				<th></th>
+    			</tr>
+    		</thead>
+    	</table>
+    </div>
+
+
+    <div id="div_warehouse" class="tableDiv">
+    	<h1><center>Warehouse Data</center></h1>
+
+    </div>
+
+
+    <div id="div_results" class="tableDiv">
+    	<h1><center>Results</center></h1>
+    </div>
+
+    <script src="allocator.js"></script>
+</body>
+</html>

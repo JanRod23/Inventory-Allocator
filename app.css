@@ -1,0 +1,127 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Oswald', 'Futura', sans-serif;
+	text-shadow: 2px 2px 1px #9f593f;
+}
+
+#title {
+	background-color: navy;
+	border: thick solid navy;
+	height: 70px;
+	width: 70%;
+	margin: auto;
+}
+
+.title_text {
+	line-height: 50px;
+}
+
+li {
+	list-style: none;
+	height: 50px;
+	width: 70%;
+	margin: auto;
+	line-height: 50px;
+	text-align: center;
+}
+
+.order {
+	background-color:         #fa8072;
+	border-top: thick solid    #fa9080;
+	border-left: thick solid   #fa9080;
+	border-right: thick solid  #fa6050;
+	border-bottom: thick solid #fa6050;
+}
+
+.inventory {
+	background-color:              #50fae9;
+	border-top: thick solid        #80fafe;
+	border-left: thick solid       #80fafe;
+	border-right: thick solid      #10fa99;
+	border-bottom: thick solid     #10fa99;
+}
+
+#li_addInventory {
+	background-color:              #30a930;
+	border-top: thick solid        #60a960;
+	border-left: thick solid       #60a960;
+	border-right: thick solid      #10a910;
+	border-bottom: thick solid     #10a910;
+	display:                       none;
+}
+
+#li_process {
+	background-color:              #5050ff;
+	border-top: thick solid        #8080ff;
+	border-left: thick solid       #8080ff;
+	border-right: thick solid      #2525ff;
+	border-bottom: thick solid     #2525ff;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+.input {
+	width: 70%;
+	padding: 10px;
+	margin: auto;
+	background-color:           #e980f2;
+}
+
+div{
+	width: 60%;
+	margin: auto;
+}
+
+table{
+	margin: auto;
+	padding: 10px;
+}
+
+th {
+	margin: auto;
+	background-color: grey;
+	border: thin solid white;
+	padding: 5px;
+}
+
+td {
+	border: thin solid white;
+	background-color: grey;
+	padding: 5px;
+}
+
+.tableDiv {
+	background-color: grey;
+}
+
+.object {
+	display: none;
+}
+
+.feedback {
+	color: red;
+	background-color: white;
+	border: thick solid white;
+	text-shadow: 1px 1px 1px red;
+	display: none;
+}
+
+#div_items {
+	display: none;
+}
+
+#div_warehouse {
+	display: none;
+}
+
+#div_results {
+	background-color: green;
+	display: none;
+}
+
+#li_inputWarehouseInv {
+	display: none;
+}
